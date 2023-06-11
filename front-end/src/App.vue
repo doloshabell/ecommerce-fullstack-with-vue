@@ -1,5 +1,6 @@
 <template>
   <h2>Hello world, I'm here to rock you!</h2>
+  <router-view></router-view>
 </template>
 
 <script>
