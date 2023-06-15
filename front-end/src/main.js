@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+import "./main.css";
 import * as VueRouter from "vue-router";
 import ProductDetailPage from "./pages/ProductDetailPage.vue";
 import ProductsPage from "./pages/ProductsPage.vue";
