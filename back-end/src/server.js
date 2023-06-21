@@ -35,6 +35,12 @@ app.post("/cart", (req, res) => {
   res.json(cartItems);
 });
 
+app.delete("/cart/:productId", (req, res) => {
+  const productId = req.params.productId;
+  cartItems = cartItems.filter((product) => product.id !== productId);
+  res.json(cartItems);
+});
+
 app.listen(8000, () => {
   console.log("Server is running on port 8000");
 });
