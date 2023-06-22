@@ -7,26 +7,7 @@
 // import mediumBottle from "./assets/medium-bottle.webp";
 // import boldBottle from "./assets/bold-bottle.webp";
 
-export const cartItems = [
-  {
-    id: "234",
-    name: "Lemon",
-    price: "$26.00",
-    // imageName: lemonBottle,
-  },
-  {
-    id: "345",
-    name: "Garlic",
-    price: "$26.00",
-    // imageName: garlicBottle,
-  },
-  {
-    id: "456",
-    name: "Rosemary",
-    price: "$26.00",
-    // imageName: rosemaryBottle,
-  },
-];
+export const cartItems = ["234", "456"];
 
 export const products = [
   {
